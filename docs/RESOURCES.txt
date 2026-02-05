@@ -21,7 +21,6 @@
  2. JetBrains Mono (Monospace - Code)
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-
  [ICONS]
  ---------------------------------------------------------------------------------
  We use Boxicons for UI icons.
@@ -48,8 +47,8 @@
  2. Date Handling
     - Day.js (Lightweight)
       npm install dayjs
-
-
+ 3. Components
+      https://ui.shadcn.com/
  [DESIGN SYSTEM TOKENS]
  ---------------------------------------------------------------------------------
  See docs/color-scheme.css for CSS Variables.
