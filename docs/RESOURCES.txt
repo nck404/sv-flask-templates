@@ -1,0 +1,63 @@
+
+  ______   _______  _______  _______  __   __  ______    _______  _______  _______ 
+ |      | |       ||       ||       ||  | |  ||    _ |  |       ||       ||       |
+ |  _    ||    ___||  _____||__   __||  |_|  ||   | ||  |       ||    ___||  _____|
+ | | |   ||   |___ | |_____    | |   |       ||   |_||_ |       ||   |___ | |_____ 
+ | |_|   ||    ___||_____  |   | |   |       ||    __  ||      _||    ___||_____  |
+ |       ||   |___  _____| |   | |   |   _   ||   |  | ||     |_ |   |___  _____| |
+ |______| |_______||_______|   |_|   |__| |__||___|  |_||_______||_______||_______|
+
+ =================================================================================
+                                 DESING RESOURCES
+ =================================================================================
+
+ [FONTS]
+ ---------------------------------------------------------------------------------
+ We use Google Fonts. Include these in your index.html or global CSS.
+
+ 1. Inter (Sans Serif - UI Interface)
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+ 
+ 2. JetBrains Mono (Monospace - Code)
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+
+ [ICONS]
+ ---------------------------------------------------------------------------------
+ We use Boxicons for UI icons.
+ 
+ 1. CDN Link (Add to HTML Head)
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+ 2. Usage Example
+    <i class='bx bx-user'></i>
+    <i class='bx bxs-home'></i> (Solid)
+
+
+ [UI LIBRARIES]
+ ---------------------------------------------------------------------------------
+ Preferred libraries for this project structure.
+
+ 1. Animations
+    - AutoAnimate (Zero config)
+      npm install @formkit/auto-animate
+
+    - Motion One (Performance)
+      npm install motion
+
+ 2. Date Handling
+    - Day.js (Lightweight)
+      npm install dayjs
+
+
+ [DESIGN SYSTEM TOKENS]
+ ---------------------------------------------------------------------------------
+ See docs/color-scheme.css for CSS Variables.
+ Used Palette: Catppuccin Latte (Light Mode)
+
+ Usage:
+ var(--ctp-blue)
+ var(--ctp-red)
+ var(--ctp-text)
+ var(--ctp-base)
+

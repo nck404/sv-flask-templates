@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.*
+/.env
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# Flask
+instance/
+.webassets-cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Trash / temp
+trash/
+tmp/
